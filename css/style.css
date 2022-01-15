@@ -15,6 +15,7 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #ececec;
 }
 
 h1,
@@ -38,6 +39,7 @@ header {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
+    background-color: #ececec;
 }
 
 .brand h3 {
@@ -111,9 +113,13 @@ button:hover{
 }
 /* ---------End of Header Section--------- */
 
+.logo-section{
+    margin-bottom: 70px;
+}
+
 hr{
     width: 70%;
-    border-top: 3px solid #aa8e8e;
+    border-top: 2px solid #aa8e8e;
 }
 
 .logo-area{
@@ -130,8 +136,66 @@ hr{
 }
 /*----- End of Logo section------------ */
 
+.collection-area{
+    /* margin-top: 30px; */
+    display: flex;
+    justify-content: center;
+}
 
+.card-area{
+    display: flex;
+    justify-content: center;
+}
 
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 20PX;
+    padding: 20PX;
+    box-shadow: 1px 10px 24px 6px rgba(191,127,127,0.75);
+}
 
+.card img{
+    text-align: center;
+    transition: all .2s ease-in;
+}
+
+.card> img:hover{
+    transform: scale(1.1);
+}
+
+.rating ul{
+    display: flex;
+    margin-left: -40px;
+}
+
+.rating ul li{
+    list-style: none;
+    margin-right: 2px;
+}
+
+.card .fas, .far{
+    color: chocolate;
+}
+
+.card h2{
+    margin: 10px 0 0 0;
+    font-size: 25px;
+    color: #18191F;
+}
+
+.rate{
+    font-size: 30px;
+    color: #000000;
+}
+
+.card-text{
+    line-height: 6px;
+    font-weight: bold;
+    color: #787885;
+}
 
 
