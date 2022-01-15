@@ -69,13 +69,15 @@ header {
     display: flex;
     align-items: center;
     width: 70%;
-    height: 100vh;
     margin: auto;
+    margin-top: 70px;
+    margin-bottom: 70px;
 
 }
 
 .header-text{
     margin-top: 70px;
+    padding-right: 100px;
 }
 
 .header-text h1{
@@ -107,5 +109,29 @@ button:hover{
     background-size: cover;
     background-repeat: no-repeat;
 }
+/* ---------End of Header Section--------- */
+
+hr{
+    width: 70%;
+    border-top: 3px solid #aa8e8e;
+}
+
+.logo-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-box{
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+/*----- End of Logo section------------ */
+
+
+
+
 
 
